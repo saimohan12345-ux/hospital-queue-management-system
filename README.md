@@ -1,40 +1,94 @@
 # 🏥 Hospital Queue Management System
 
-A simple Hospital Queue Management System built using Python and Streamlit.
+A web-based Hospital Queue Management System developed using Python and Streamlit.
+
+## 🚀 Live Demo
+
+🌐 Streamlit App:
+https://hospital-queue-system.streamlit.app
 
 ## 📌 Project Description
 
-This project helps manage patient queues in a hospital based on priority levels. Patients with higher priority (emergency cases) are treated before regular patients.
+This project helps hospitals manage patient queues efficiently using the Priority Queue concept from Data Structures.
 
-The system uses the Priority Queue concept from Data Structures to organize patients efficiently.
+Patients are assigned different priority levels based on the severity of their condition:
 
-## 🚀 Features
+- Priority 1 → Emergency
+- Priority 2 → Visiting
+- Priority 3 → Regular Checkup
+- Priority 4 → Medicine
 
-- Add new patients
-- Assign priority levels
-- Generate patient tokens
-- Display current queue
-- Treat patients based on priority
-- Simple and user-friendly Streamlit interface
+Patients with higher priority are treated before others.
 
-## 🛠️ Technologies Used
+## ✨ Features
+
+- Add New Patients
+- Assign Priority Levels
+- Department Selection
+- View Current Queue
+- Treat Patients Based on Priority
+- Interactive Web Interface
+- Streamlit Deployment
+
+## 🛠 Technologies Used
 
 - Python
 - Streamlit
-- Data Structures (Priority Queue)
+- Data Structures
+- Priority Queue
+- Git & GitHub
 
-## 📊 Priority Levels
+## 📷 Screenshots
 
-| Priority | Description |
-|-----------|------------|
-| 1 | Emergency |
-| 2 | Visiting |
-| 3 | Regular Checkup |
-| 4 | Medicine |
+### Home Page
 
-## ▶️ How to Run
+![alt text](image.png)
 
-Install Streamlit:
+### Queue Management
+
+![alt text](image-1.png)
+
+### Patient Treatment
+
+![alt text](image-2.png)
+
+## ▶️ Run Locally
+
+Clone the repository:
 
 ```bash
-pip install streamlit
+git clone https://github.com/saimohan12345-ux/hospital-queue-management-system.git
+```
+
+Move into project folder:
+
+```bash
+cd hospital-queue-management-system
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+## 🎯 Future Improvements
+
+- Database Integration
+- Doctor Dashboard
+- Patient Login System
+- Appointment Booking
+- Analytics Dashboard
+
+## 👨‍💻 Author
+
+Sai Mohan
+
+GitHub:
+https://github.com/saimohan12345-ux
